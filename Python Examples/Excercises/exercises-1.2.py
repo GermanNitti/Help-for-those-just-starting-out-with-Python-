@@ -1,0 +1,11 @@
+Frase=input("Decime una frase y te calculo cuanto tardarias si tuvieras que decirla: ")
+print("-----------------")
+palabras_separadas = Frase.split (" ")
+cantidad_de_palabras = len (palabras_separadas)
+print (f"Dijiste {cantidad_de_palabras} palabras y tardarias {cantidad_de_palabras/2} segundos en decirlo.")
+print ("-------------------")
+print (f'Dalto lo diria en {cantidad_de_palabras*100 // 2 *1.3 / 100} segundos')
+print ("-------------------")
+if cantidad_de_palabras>25:
+    print ("Para flaco, tampoco un testamento")
+    print ("-----------------")
